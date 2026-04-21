@@ -1,0 +1,11 @@
+Package: com.un1ockdev.proudlockx
+Name: ProudLockX
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: un1ockdev
+Author: un1ockdev
+Description: Modern iPhone experience for iOS
+Filename: com.un1ockdev.proudlockx_1.0.0_iphoneos-arm64.deb
+Section: Tweaks
+Size: 2052910
+MD5sum: f436bf7daa97e739cbaee9efc19b7ce4
