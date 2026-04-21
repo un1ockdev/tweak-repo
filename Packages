@@ -8,4 +8,5 @@ Description: Modern iPhone experience for iOS
 Filename: ./com.un1ockdev.proudlockx_1.0.0_iphoneos-arm64.deb
 Section: Tweaks
 Size: 2052910
-MD5sum: f436bf7daa97e739cbaee9efc19b7ce4
+SHA256: b3f7ab55a9402a4b6810c70755c63aa921b905f32aaee9736bfb2ce9c04ce69d
+EOF
