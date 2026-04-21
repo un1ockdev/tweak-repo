@@ -1,0 +1,18 @@
+Package: com.un1ockdev.proudlockx
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: un1ockdev <https://github.com/un1ockdev>
+Installed-Size: 2384
+Depends: mobilesubstrate, preferenceloader
+Filename: ./com.un1ockdev.proudlockx_1.0.0_iphoneos-arm64.deb
+Size: 2052910
+MD5sum: f436bf7daa97e739cbaee9efc19b7ce4
+SHA1: dda1292405f6b588ff8a6d647f32558d2ec58179
+SHA256: b3f7ab55a9402a4b6810c70755c63aa921b905f32aaee9736bfb2ce9c04ce69d
+Section: Tweaks
+Description: Modern iPhone X statusbar and padlock for iOS 16 rootless devices. Tested on iPhone 8 Plus. Optimized for Dopamine.
+Author: un1ockdev <https://x.com/gmzl80>
+Instagram: https://www.instagram.com/gmzl80
+Name: ProudLockX
+Sileodepiction: https://raw.githubusercontent.com/un1ockdev/repo/main/depiction.json
+Twitter: https://x.com/gmzl80
