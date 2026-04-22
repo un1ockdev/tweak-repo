@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Cydialcon.png" width="128" height="128" style="border-radius: 22%;">
+  <img src="https://raw.githubusercontent.com/un1ockdev/tweak-repo/refs/heads/main/CydiaIcon.png" width="128" height="128" style="border-radius: 22%;">
   <h1 align="center">un1ockdev Official Repo</h1>
 </p>
 
