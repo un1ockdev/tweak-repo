@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/Cydialcon.png" width="128" height="128" style="border-radius: 22%;">
+  <img src="Cydialcon.png" width="128" height="128" style="border-radius: 22%;">
   <h1 align="center">un1ockdev Official Repo</h1>
 </p>
 
@@ -23,3 +23,8 @@
 ### 🔗 Connect with me
 [<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">](https://x.com/gmzl80)
 [<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/gmzl80)
+
+---
+<p align="center">
+  Developed by <b>un1ockdev</b>
+</p>
