@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/un1ockdev/repo/main/icon@3x.png" width="128" height="128" style="border-radius: 22%;">
+  <img src="https://raw.githubusercontent.com/un1ockdev/repo/main/CydiaIcon.png" width="128" height="128" style="border-radius: 22%;">
   <h1 align="center">un1ockdev Official Repo</h1>
 </p>
 
