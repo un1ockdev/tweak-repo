@@ -1,0 +1,36 @@
+Package: com.un1ockdev.prouddockxvi
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: un1ockdev
+Installed-Size: 868
+Depends: preferenceloader
+Filename: ./com.un1ockdev.prouddockxvi_1.0.0_iphoneos-arm64.deb
+Size: 454072
+MD5sum: b92c202b4bb590cae26088de672f88de
+SHA1: a3a3f3832a95b289373cd0354d8c3d3d131e562d
+SHA256: e23871d32a230c2ee5ce084759d83b5f510bb0d4a25a0c51cae61f6ef28279ee
+Section: Tweaks
+Description: Modern dock for iOS 16.
+Author: un1ockdev
+Name: ProudDockXVI
+
+Package: com.un1ockdev.proudlockx
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: un1ockdev <https://github.com/un1ockdev>
+Installed-Size: 1752
+Depends: mobilesubstrate, preferenceloader
+Filename: ./com.un1ockdev.proudlockx_2.1.1_iphoneos-arm64.deb
+Size: 1439726
+MD5sum: ee6f0d5424b4ea8613fd155a7f7c3c98
+SHA1: 2dda758e4078f17a5ae2dd5e051c94bb09effbf7
+SHA256: 1cdb49ddc06899ca0b758251c80d7788a81b3e617c72cf2fc78e256539e97f7b
+Section: Tweaks
+Description: Modern iPhone X statusbar and padlock for iOS 16 rootless devices. Tested on iPhone 8 Plus. Optimized for Dopamine.
+Author: un1ockdev <https://x.com/gmzl80>
+Icon: https://raw.githubusercontent.com/un1ockdev/repo/main/icon@3x.png
+Instagram: https://www.instagram.com/gmzl80
+Name: ProudLockX
+Sileodepiction: https://raw.githubusercontent.com/un1ockdev/repo/main/depiction.json
+Twitter: https://x.com/gmzl80
+
