@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/un1ockdev/tweak-repo/refs/heads/main/CydiaIcon.png" width="128" height="128" style="border-radius: 22%;">
+  <img src="https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/1000015434.png" width="256" alt="un1ockdev Logo">
   <h1 align="center">un1ockdev Official Repo</h1>
 </p>
 
@@ -21,8 +21,14 @@
 * **ProudLockX:** Modern iPhone X statusbar and padlock for iOS 16 rootless devices.
 
 ### 🔗 Connect with me
-[<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">](https://x.com/gmzl80)
-[<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/gmzl80)
+<p align="left">
+  <a href="https://x.com/gmzl80">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
+  </a>
+  <a href="https://www.instagram.com/gmzl80">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+</p>
 
 ---
 <p align="center">
