@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/1000015434.png" width="256" alt="un1ockdev Logo">
+  <img src="https://github.com/un1ockdev/tweak-repo/blob/main/CydiaIcon.png" width="256" alt="un1ockdev Logo">
   <h1 align="center">un1ockdev Official Repo</h1>
 </p>
 
