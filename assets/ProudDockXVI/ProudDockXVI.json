@@ -1,0 +1,23 @@
+{
+  "min_vertical_nav_spacing": 0,
+  "class": "SileoRootView",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "SileoRootView",
+      "views": [
+        {
+          "class": "SileoHeaderView",
+          "backgroundImage": "https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/assets/ProudDockXVI/banner.png",
+          "title": "ProudDockXVI",
+          "useMargins": false
+        },
+        {
+          "class": "SileoDescriptionView",
+          "markdown": "**ProudDockXVI**, modern dock deneyimini cihazınıza getirir.",
+          "useMargins": true
+        }
+      ]
+    }
+  ]
+}
