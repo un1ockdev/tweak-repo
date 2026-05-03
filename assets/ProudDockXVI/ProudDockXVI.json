@@ -4,13 +4,24 @@
   "tabs": [
     {
       "tabname": "Details",
-      "class": "SileoRootView",
+      "class": "SileoDetailsTab",
       "views": [
         {
           "class": "SileoHeaderView",
           "backgroundImage": "https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/assets/ProudDockXVI/banner.png",
           "title": "ProudDockXVI",
           "useMargins": false
+        },
+        {
+          "class": "SileoScreenshotView",
+          "screenshots": [
+            {
+              "url": "https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/assets/ProudDockXVI/icon@3x.png",
+              "accessibilityText": "Screenshot 1"
+            }
+          ],
+          "itemCornerRadius": 8,
+          "itemSize": "{160, 346}"
         },
         {
           "class": "SileoDescriptionView",
