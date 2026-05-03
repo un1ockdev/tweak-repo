@@ -25,7 +25,7 @@
             }
           ],
           "itemCornerRadius": 8,
-          "itemSize": "{160, 346}"
+          "itemSize": "{200, 433}"
         },
         {
           "class": "SileoDescriptionView",
