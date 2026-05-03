@@ -1,36 +1,39 @@
-<p align="center">
-  <img src="https://github.com/un1ockdev/tweak-repo/blob/main/CydiaIcon.png" width="256" alt="un1ockdev Logo">
-  <h1 align="center">un1ockdev Official Repo</h1>
-</p>
+# tweak-repo
 
-<p align="center">
-  <strong>Official Tweak Repository for Modern Rootless Jailbreaks</strong>
-</p>
+Official repository for iOS 16 (Rootless) tweaks developed by un1ockdev. Primarily focused on Modern UI enhancements and system customizations.
+
+un1ockdev tarafından geliştirilen iOS 16 (Rootless) tweaklerinin resmi deposudur. Genel olarak modern arayüz geliştirmeleri ve sistem özelleştirmeleri üzerine odaklanmıştır.
 
 ---
 
-### 📦 Repository Information
-* **Origin:** un1ockdev
-* **Label:** un1ockdev
-* **Suite:** stable
-* **Architectures:** iphoneos-arm64
-* **Version:** 1.0
-* **Codename:** ios
+## Packages / Paketler
 
-### 🚀 Featured Tweaks
-* **ProudLockX:** Modern iPhone X statusbar and padlock for iOS 16 rootless devices.
+### ProudLockX
+Brings the modern iPhone X status bar and lock screen experience to older devices. Optimized for iOS 16 rootless environments and tested on iPhone 8 Plus.
 
-### 🔗 Connect with me
-<p align="left">
-  <a href="https://x.com/gmzl80">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
-  </a>
-  <a href="https://www.instagram.com/gmzl80">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
-  </a>
-</p>
+Eski nesil cihazlara modern iPhone X durum çubuğu ve kilit ekranı deneyimini getirir. iOS 16 rootless ortamlar için optimize edilmiş ve iPhone 8 Plus üzerinde test edilmiştir.
+
+### ProudDockXVI
+A modern dock implementation designed specifically for iOS 16.
+
+iOS 16 için özel olarak tasarlanmış modern dock uygulamasıdır.
 
 ---
-<p align="center">
-  Developed by <b>un1ockdev</b>
-</p>
+
+## How to Add / Repo Ekleme
+
+Add the following URL to your preferred package manager (Sileo, Zebra, etc.):
+
+Aşağıdaki adresi kullandığınız paket yöneticisine (Sileo, Zebra vb.) ekleyin:
+
+https://un1ockdev.github.io/tweak-repo/
+
+---
+
+## Contact / İletişim
+
+Twitter (X): https://x.com/gmzl80
+Instagram: https://www.instagram.com/gmzl80
+
+Developed by un1ockdev.
+
