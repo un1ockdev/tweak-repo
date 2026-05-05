@@ -12,6 +12,8 @@ SHA256: e23871d32a230c2ee5ce084759d83b5f510bb0d4a25a0c51cae61f6ef28279ee
 Section: Tweaks
 Description: Modern dock for iOS 16.
 Author: un1ockdev
+Icon: https://raw.githubusercontent.com/un1ockdev/tweak-repo/refs/heads/main/assets/ProudDockXVI/icon%403x.png
+Sileodepiction: https://raw.githubusercontent.com/un1ockdev/tweak-repo/refs/heads/main/assets/ProudDockXVI/ProudDockXVI.json
 Name: ProudDockXVI
 
 Package: com.un1ockdev.proudlockx
@@ -28,9 +30,8 @@ SHA256: 3abc0877d94206700b1a2da3d79eea61180db4d117b2a6a2e0e615e15dba8183
 Section: Tweaks
 Description: Modern iPhone X statusbar and padlock. Supports rootless, rootful and roothide jailbreaks. Compatible with iOS 11–16+.
 Author: un1ockdev <https://x.com/gmzl80>
-Icon: https://raw.githubusercontent.com/un1ockdev/repo/main/icon@3x.png
+Icon: https://raw.githubusercontent.com/un1ockdev/tweak-repo/refs/heads/main/assets/ProudLockX/icon%403x.png
 Instagram: https://www.instagram.com/gmzl80
 Name: ProudLockX
-Sileodepiction: https://raw.githubusercontent.com/un1ockdev/repo/main/depiction.json
+Sileodepiction: https://raw.githubusercontent.com/un1ockdev/tweak-repo/refs/heads/main/assets/ProudLockX/ProudLockX.json
 Twitter: https://x.com/gmzl80
-
