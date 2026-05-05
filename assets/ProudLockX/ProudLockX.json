@@ -1,26 +1,26 @@
 {
+  "class": "SileoRootView",
   "minVersion": "0.1",
-  "headerImage": "https://github.com/un1ockdev/tweak-repo/blob/main/assets/ProudLockX/Banner.png?raw=true",
-  "tintColor": "#ff3b30",
-  "tabs": [
+  "tabname": "Details",
+  "views": [
     {
-      "tabname": "Details",
-      "views": [
-        {
-          "class": "DepictionHeaderView",
-          "title": "ProudLockX"
-        },
-        {
-          "class": "DepictionSubheaderView",
-          "title": "Modern iPhone X statusbar and padlock"
-        },
-        {
-          "class": "DepictionImageView",
-          "url": "https://raw.githubusercontent.com/un1ockdev/tweak-repo/refs/heads/main/assets/ProudLockX/icon%403x.png",
-          "width": 128,
-          "height": 128
-        }
-      ]
+      "class": "DepictionHeaderView",
+      "title": "ProudLockX"
+    },
+    {
+      "class": "DepictionSubheaderView",
+      "title": "Modern iPhone X statusbar and padlock"
+    },
+    {
+      "class": "DepictionImageView",
+      "url": "https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/assets/ProudLockX/Banner.png",
+      "width": 1000,
+      "height": 500
+    },
+    {
+      "class": "DepictionMarkdownView",
+      "markdown": "Modern iPhone X statusbar and padlock. Supports rootless, rootful and roothide jailbreaks. Compatible with iOS 11–16+.",
+      "useRawFormat": true
     }
   ]
 }
