@@ -1,32 +1,24 @@
 {
-  "min_vertical_nav_spacing": 0,
-  "class": "SileoRootView",
+  "minVersion": "0.1",
+  "headerImage": "https://raw.githubusercontent.com/un1ockdev/tweak-repo/refs/heads/main/assets/ProudDockXVI/banner.png",
+  "tintColor": "#5ac8fa",
   "tabs": [
     {
       "tabname": "Details",
-      "class": "SileoDetailsTab",
       "views": [
         {
-          "class": "SileoHeaderView",
-          "backgroundImage": "https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/assets/ProudDockXVI/banner.png",
-          "title": "ProudDockXVI",
-          "useMargins": false
+          "class": "DepictionHeaderView",
+          "title": "ProudDockXVI"
         },
         {
-          "class": "SileoScreenshotView",
-          "screenshots": [
-            {
-              "url": "https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/assets/ProudDockXVI/icon@3x.png",
-              "accessibilityText": "Screenshot 1"
-            }
-          ],
-          "itemCornerRadius": 8,
-          "itemSize": "{160, 346}"
+          "class": "DepictionSubheaderView",
+          "title": "Modern dock for iOS 16"
         },
         {
-          "class": "SileoDescriptionView",
-          "markdown": "**ProudDockXVI**, modern dock deneyimini cihazınıza getirir.",
-          "useMargins": true
+          "class": "DepictionImageView",
+          "url": "https://raw.githubusercontent.com/un1ockdev/tweak-repo/refs/heads/main/assets/ProudDockXVI/icon%403x.png",
+          "width": 128,
+          "height": 128
         }
       ]
     }
