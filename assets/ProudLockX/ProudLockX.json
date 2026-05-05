@@ -1,36 +1,24 @@
 {
-  "min_vertical_nav_spacing": 0,
-  "class": "SileoRootView",
+  "minVersion": "0.1",
+  "headerImage": "https://github.com/un1ockdev/tweak-repo/blob/main/assets/ProudLockX/Banner.png?raw=true",
+  "tintColor": "#ff3b30",
   "tabs": [
     {
       "tabname": "Details",
-      "class": "SileoDetailsTab",
       "views": [
         {
-          "class": "SileoHeaderView",
-          "backgroundImage": "https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/assets/ProudLockX/Banner.png",
-          "title": "ProudLockX",
-          "useMargins": false
+          "class": "DepictionHeaderView",
+          "title": "ProudLockX"
         },
         {
-          "class": "SileoScreenshotView",
-          "screenshots": [
-            {
-              "url": "https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/assets/ProudLockX/newiPhone.png",
-              "accessibilityText": "Screenshot 1"
-            },
-            {
-              "url": "https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/assets/ProudLockX/oldiPhone.png",
-              "accessibilityText": "Screenshot 2"
-            }
-          ],
-          "itemCornerRadius": 8,
-          "itemSize": "{200, 433}"
+          "class": "DepictionSubheaderView",
+          "title": "Modern iPhone X statusbar and padlock"
         },
         {
-          "class": "SileoDescriptionView",
-          "markdown": "**ProudLockX**, modern iPhone X görünümünü iOS 16 rootless cihazlara taşır.",
-          "useMargins": true
+          "class": "DepictionImageView",
+          "url": "https://raw.githubusercontent.com/un1ockdev/tweak-repo/refs/heads/main/assets/ProudLockX/icon%403x.png",
+          "width": 128,
+          "height": 128
         }
       ]
     }
