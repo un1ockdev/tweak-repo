@@ -3,6 +3,7 @@ Label: un1ockdev Repo
 Suite: stable
 Version: 2.5.0
 Codename: ios
-Architectures: iphoneos-arm64
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: ProudLockX and other tweaks by un1ockdev
+Date: Thu, 07 May 2026 14:47:30 +0000
