@@ -1,0 +1,29 @@
+Package: com.un1ockdev.prouddockxvi
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: un1ockdev
+Filename: debs/com.un1ockdev.prouddockxvi_1.0.0_iphoneos-arm64.deb
+Size: 454072
+MD5sum: b92c202b4bb590cae26088de672f88de
+SHA1: a3a3f3832a95b289373cd0354d8c3d3d131e562d
+SHA256: e23871d32a230c2ee5ce084759d83b5f510bb0d4a25a0c51cae61f6ef28279ee
+Section: Tweaks
+Description: Modern dock for iOS 16.
+Icon: https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/assets/ProudDockXVI/icon%403x.png
+SileoDepiction: https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/assets/ProudDockXVI/ProudDockXVI.json
+Name: ProudDockXVI
+
+Package: com.un1ockdev.proudlockx
+Version: 2.5.0
+Architecture: iphoneos-arm64
+Maintainer: un1ockdev
+Filename: debs/com.un1ockdev.proudlockx_2.5.0_iphoneos-arm64.deb
+Size: 1461882
+MD5sum: 8e1ceb3891261dc6f33711480a2c85a7
+SHA1: f34e4c59a4dae49cf8669ffe7a6868b3f0204382
+SHA256: 3abc0877d94206700b1a2da3d79eea61180db4d117b2a6a2e0e615e15dba8183
+Section: Tweaks
+Description: Modern iPhone X statusbar and padlock.
+Icon: https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/assets/ProudLockX/icon%403x.png
+SileoDepiction: https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/assets/ProudLockX/ProudLockX.json
+Name: ProudLockX
