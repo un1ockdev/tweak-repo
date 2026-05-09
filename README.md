@@ -36,5 +36,18 @@ https://un1ockdev.github.io/tweak-repo/
 
 Twitter (X): https://x.com/gmzl80
 Instagram: https://www.instagram.com/gmzl80
+⚠️ ❗Legal Notice / Yasal Uyarı (DMCA)
+This repository and all software distributed here (including binaries and assets) are the intellectual property of un1ockdev
+- All tweaks are closed-source
+- Unauthorized reverse-engineering, decompiling, or redistribution of the source code and assets is strictly prohibited. 
+- Legal action and DMCA Takedown
+notices will be filed against any repository or individual hosting stolen or deconstructed versions of this work.
+
+
+Bu depo ve burada paylaşılan tüm yazılımlar (dosyalar ve görseller dahil) un1ockdev 'in fikri mülkiyetidir. 
+- Tüm tweak'ler kapalı kaynaklıdır
+- Kaynak kodlarının veya görsellerin izinsiz tersine mühendislik (reverse-engineering), decompile edilmesi veya yeniden dağıtılması kesinlikle yasaktır. 
+- Çalınmış veya parçalanmış sürümleri barındıran kişi veya depolara karşı yasal işlem başlatılacak ve DMCA Kaldırma bildirimi gönderilecektir.
+- 
 
 Developed by un1ockdev.
