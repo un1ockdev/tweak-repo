@@ -38,7 +38,7 @@ Twitter (X): https://x.com/gmzl80
 Instagram: https://www.instagram.com/gmzl80
 
 
-⚠️ ❗Legal Notice / Yasal Uyarı (DMCA)
+##⚠️ ❗Legal Notice / Yasal Uyarı (DMCA)
 This repository and all software distributed here (including binaries and assets) are the intellectual property of un1ockdev
 - All tweaks are closed-source
 - Unauthorized reverse-engineering, decompiling, or redistribution of the source code and assets is strictly prohibited. 
