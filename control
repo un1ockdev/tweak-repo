@@ -1,0 +1,13 @@
+Package: com.un1ockdev.proudlockx
+Name: ProudLockX
+Depends: mobilesubstrate, preferenceloader
+Version: 2.5.0
+Architecture: iphoneos-arm64
+Description: Modern iPhone X statusbar and padlock. Supports rootless, rootful and roothide jailbreaks. Compatible with iOS 15–16.7.
+Maintainer: un1ockdev <https://github.com/un1ockdev>
+Author: un1ockdev <https://x.com/gmzl80>
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/un1ockdev/repo/main/icon@3x.png
+SileoDepiction: https://raw.githubusercontent.com/un1ockdev/repo/main/depiction.json
+Twitter: https://x.com/gmzl80
+Instagram: https://www.instagram.com/gmzl80
