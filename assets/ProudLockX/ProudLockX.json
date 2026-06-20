@@ -1,26 +1,110 @@
 {
-  "class": "SileoRootView",
-  "minVersion": "0.1",
-  "tabname": "Details",
-  "views": [
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tintColor": "#20C7C9",
+  "tabs": [
     {
-      "class": "DepictionHeaderView",
-      "title": "ProudLockX"
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "ProudLockX"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Advanced rootless customization toolkit for iOS 16"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "ProudLockX brings a polished set of system customization tools for rootless jailbreaks, focused on the Lock Screen, SpringBoard, status bar, dock, folders, passcode screen, signal indicators, camera controls, Photos controls, keyboard behavior, custom ringtones, and custom notification sounds.\n\nDesigned for users who want a cleaner and more personal iOS experience without unnecessary clutter. ProudLockX keeps its options organized inside a modern preference panel with multiple languages, refined icons, and carefully grouped controls.\n\nRootless only. Compatible with iOS 16.0 through iOS 16.7.15.",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 12,
+          "itemSize": "{160, 284}",
+          "screenshots": [
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/ProudLockX/screenshots/01.png",
+              "accessibilityText": "Lock Screen interface customization"
+            },
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/ProudLockX/screenshots/02.png",
+              "accessibilityText": "Custom passcode screen preview"
+            },
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/ProudLockX/screenshots/03.png",
+              "accessibilityText": "ProudLockX overview and status bar settings"
+            },
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/ProudLockX/screenshots/04.png",
+              "accessibilityText": "Battery and quick action settings"
+            },
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/ProudLockX/screenshots/05.png",
+              "accessibilityText": "Clock and font customization"
+            },
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/ProudLockX/screenshots/06.png",
+              "accessibilityText": "Icon label, screenshot, and Photos settings"
+            },
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/ProudLockX/screenshots/07.png",
+              "accessibilityText": "Custom ringtone and notification sound settings"
+            },
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/ProudLockX/screenshots/08.png",
+              "accessibilityText": "Customized Lock Screen preview"
+            }
+          ]
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Features"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Lock Screen customization\n- Custom passcode title and passcode text\n- iPhone X and iPad-style status bar options\n- Full status bar hiding option\n- Battery, signal, and carrier customization\n- Dock, folder, and App Switcher controls\n- Clock, date, font, and size customization\n- Custom ringtones and notification sounds\n- Photos, Camera, Screenshot, and Control Center refinements\n- Multi-language preference panel",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "3.0.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 16.0 – 16.7.15"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Jailbreak",
+          "text": "Rootless"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Support Development on Patreon",
+          "action": "https://www.patreon.com/c/un1ockdev",
+          "openExternal": true
+        }
+      ]
     },
     {
-      "class": "DepictionSubheaderView",
-      "title": "Modern iPhone X statusbar and padlock"
-    },
-    {
-      "class": "DepictionImageView",
-      "url": "https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/assets/ProudLockX/Banner.png",
-      "width": 1000,
-      "height": 500
-    },
-    {
-      "class": "DepictionMarkdownView",
-      "markdown": "Modern iPhone X statusbar and padlock. Supports rootless, rootful and roothide jailbreaks. Compatible with iOS 11–16+.",
-      "useRawFormat": true
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Version 3.0.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added custom notification sound support\n- Added full status bar hiding option\n- Improved language coverage across the preference panel\n- Improved release hardening\n- Updated package details for rootless iOS 16\n- Refined preference panel organization and icons\n- Added updated Sileo screenshots and package depiction",
+          "useRawFormat": false
+        }
+      ]
     }
   ]
 }
