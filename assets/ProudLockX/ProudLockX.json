@@ -1,6 +1,7 @@
 {
   "class": "DepictionTabView",
   "minVersion": "0.4",
+  "headerImage": "https://un1ockdev.github.io/tweak-repo/assets/ProudLockX/header.png",
   "tintColor": "#20C7C9",
   "tabs": [
     {
@@ -84,9 +85,31 @@
           "text": "Rootless"
         },
         {
+          "class": "DepictionHeaderView",
+          "title": "Links"
+        },
+        {
           "class": "DepictionTableButtonView",
           "title": "Support Development on Patreon",
           "action": "https://www.patreon.com/c/un1ockdev",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub",
+          "action": "https://github.com/un1ockdev",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "X / Twitter",
+          "action": "https://x.com/gmzl80",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Reddit",
+          "action": "https://www.reddit.com/user/Pretend_Swimmer1700/",
           "openExternal": true
         }
       ]
