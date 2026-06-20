@@ -1,10 +1,16 @@
-ProudLockX Repo
+<p align="center">
+  <img src="assets/repo-icon.png" width="180" alt="un1ockdev repo icon">
+</p>
 
-<img src="https://raw.githubusercontent.com/un1ockdev/tweak-repo/main/CydiaIcon.png" width="150" height="150">
+<h1 align="center">ProudLockX Repo</h1>
 
-Official repository for iOS 16 rootless tweaks developed by un1ockdev.
+<p align="center">
+  Official repository for iOS 16 rootless tweaks developed by un1ockdev.
+</p>
 
-un1ockdev tarafından geliştirilen iOS 16 rootless tweaklerinin resmi deposudur.
+<p align="center">
+  un1ockdev tarafından geliştirilen iOS 16 rootless tweaklerinin resmi deposudur.
+</p>
 
 Repo
 
