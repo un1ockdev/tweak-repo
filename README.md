@@ -4,13 +4,13 @@ ProudLockX Repo
 
 Official repository for iOS 16 rootless tweaks developed by un1ockdev.
 
-un1ockdev tarafindan gelistirilen iOS 16 rootless tweaklerinin resmi deposudur.
+un1ockdev tarafından geliştirilen iOS 16 rootless tweaklerinin resmi deposudur.
 
 Repo
 
 Add this URL to Sileo, Zebra, or another compatible package manager:
 
-Bu adresi Sileo, Zebra veya uyumlu bir paket yoneticisine ekleyin:
+Bu adresi Sileo, Zebra veya uyumlu bir paket yöneticisine ekleyin:
 
 https://un1ockdev.github.io/tweak-repo/
 
@@ -20,206 +20,206 @@ ProudLockX
 
 Advanced rootless customization toolkit for iOS 16. Compatible with iOS 16.0 through iOS 16.7.15.
 
-iOS 16 icin gelismis rootless ozellestirme tweakidir. iOS 16.0 ile iOS 16.7.15 arasi uyumludur.
+iOS 16 için geliştirilmiş rootless özelleştirme tweakidir. iOS 16.0 ile iOS 16.7.15 arası uyumludur.
 
 ProudDockXVI
 
 Modern dock tweak for iOS 16.
 
-iOS 16 icin modern dock tweakidir.
+iOS 16 için modern dock tweakidir.
 
 General / Genel
 
-| English                     | Turkce                                       |
+| English                     | Türkçe                                       |
 | --------------------------- | -------------------------------------------- |
-| Settings Pull-Down Respring | Ayarlar Ana Ekraninda Asagi Cekince Respring |
+| Settings Pull-Down Respring | Ayarlar ana ekranında aşağı çekince respring |
 | Language                    | Dil                                          |
 
-Status Bar / Durum Cubugu
+Status Bar / Durum Çubuğu
 
-| English               | Turkce                   |
+| English               | Türkçe                   |
 | --------------------- | ------------------------ |
-| Use iPad Style        | iPad Tarzi Kullan        |
-| Hide iPad Style Date  | iPad Tarzi Tarihi Gizle  |
-| Use Original Keyboard | Orijinal Klavyeyi Kullan |
-| Hide Status Bar       | Statusbari Gizle         |
+| Use iPad Style        | iPad tarzı kullan        |
+| Hide iPad Style Date  | iPad tarzı tarihi gizle  |
+| Use Original Keyboard | Orijinal klavyeyi kullan |
+| Hide Status Bar       | Durum çubuğunu gizle     |
 
 Battery / Pil
 
-| English                    | Turkce                     |
+| English                    | Türkçe                     |
 | -------------------------- | -------------------------- |
-| Hide Battery               | Pili Gizle                 |
-| Hide Battery Bolt          | Pil Simsegini Gizle        |
-| Hide Battery Percentage    | Pil Yuzdesini Gizle        |
-| Disable Charging Animation | Sarj Animasyonunu Kapat    |
-| Tap for Low Power Mode     | Pile Dokun: Dusuk Guc Modu |
-| Hide Low Battery Alert     | Dusuk Pil Uyarisini Gizle  |
+| Hide Battery               | Pili gizle                 |
+| Hide Battery Bolt          | Pil şimşeğini gizle        |
+| Hide Battery Percentage    | Pil yüzdesini gizle        |
+| Disable Charging Animation | Şarj animasyonunu kapat    |
+| Tap for Low Power Mode     | Pile dokun: düşük güç modu |
+| Hide Low Battery Alert     | Düşük pil uyarısını gizle  |
 
 Lock Icon Position / Asma Kilit Konumu
 
-| English             | Turkce       |
+| English             | Türkçe       |
 | ------------------- | ------------ |
-| Horizontal Position | Yatay Konum  |
-| Vertical Position   | Dikey Konum  |
-| Icon Size           | Simge Boyutu |
+| Horizontal Position | Yatay konum  |
+| Vertical Position   | Dikey konum  |
+| Icon Size           | Simge boyutu |
 
-Operator / Operator
+Operator / Operatör
 
-| English            | Turkce               |
+| English            | Türkçe               |
 | ------------------ | -------------------- |
-| Hide Operator Name | Operator Adini Gizle |
+| Hide Operator Name | Operatör adını gizle |
 
-Hide UI Elements / Arayuz Ogelerini Gizle
+Hide UI Elements / Arayüz Öğelerini Gizle
 
-| English                 | Turkce                             |
+| English                 | Türkçe                             |
 | ----------------------- | ---------------------------------- |
-| Hide Page Dots & Search | Sayfa Noktalarini ve Aramayi Gizle |
-| Rounded Signal Bars     | Yuvarlak Sinyal Cubuklari          |
-| Signal Dot Size         | Sinyal Dot Boyutu                  |
-| Signal Dot Spacing      | Sinyal Dot Araligi                 |
-| Signal X Position       | Sinyal X Konumu                    |
-| Signal Y Position       | Sinyal Y Konumu                    |
+| Hide Page Dots & Search | Sayfa noktalarını ve aramayı gizle |
+| Rounded Signal Bars     | Yuvarlak sinyal çubukları          |
+| Signal Dot Size         | Sinyal nokta boyutu                |
+| Signal Dot Spacing      | Sinyal nokta aralığı               |
+| Signal X Position       | Sinyal X konumu                    |
+| Signal Y Position       | Sinyal Y konumu                    |
 
-App Switcher / Uygulama Degistirici
+App Switcher / Uygulama Değiştirici
 
-| English               | Turkce                             |
+| English               | Türkçe                             |
 | --------------------- | ---------------------------------- |
-| Show Close All Button | Tumunu Kapat Butonunu Goster       |
-| Disable App Library   | Uygulama Arsivini Devre Disi Birak |
-| App Switcher Mode     | Uygulama Degistirici Modu          |
+| Show Close All Button | Tümünü kapat butonunu göster       |
+| Disable App Library   | Uygulama arşivini devre dışı bırak |
+| App Switcher Mode     | Uygulama değiştirici modu          |
 
 Dock
 
-| English              | Turkce                         |
+| English              | Türkçe                         |
 | -------------------- | ------------------------------ |
-| Hide Dock Completely | Dock'u Tamamen Gizle           |
-| Enable Floating Dock | Floating Dock'u Etkinlestir    |
-| Hide Dock Separator  | Dock Ayiricisini Gizle         |
-| Dock App Limit       | Dock Uygulama Limiti           |
-| Recent App Limit     | Son Uygulama Limiti            |
-| Disable Dock In      | Dock'u Surada Devre Disi Birak |
+| Hide Dock Completely | Dock'u tamamen gizle           |
+| Enable Floating Dock | Floating Dock'u etkinleştir    |
+| Hide Dock Separator  | Dock ayırıcısını gizle         |
+| Dock App Limit       | Dock uygulama limiti           |
+| Recent App Limit     | Son uygulama limiti            |
+| Disable Dock In      | Dock'u şurada devre dışı bırak |
 
-Apple Account / Apple Hesabi
+Apple Account / Apple Hesabı
 
-| English              | Turkce            |
+| English              | Türkçe            |
 | -------------------- | ----------------- |
-| Custom Apple ID Name | Ozel Apple ID Adi |
+| Custom Apple ID Name | Özel Apple ID adı |
 
 SpringBoard - Home Screen / SpringBoard - Ana Ekran
 
-| English                     | Turkce                                  |
+| English                     | Türkçe                                  |
 | --------------------------- | --------------------------------------- |
-| Hide Dock Background        | Dock Arka Planini Gizle                 |
-| Hide Icon Badges            | Simge Rozetlerini Gizle                 |
-| Hide Status Bar Color Views | Durum Cubugu Renk Gorunumlerini Gizle   |
-| Disable App Tracking        | Uygulama Takibini Devre Disi Birak      |
-| Disable Low Power Auto-Lock | Dusuk Guc Otomatik Kilidini Kapat       |
-| Custom Home Columns         | Ozel Ana Ekran Sutunlari                |
-| Custom Corner Radius        | Ozel Kose Yaricapi                      |
-| Enable Drag & Drop (iPhone) | Surukle ve Birak'i Etkinlestir (iPhone) |
+| Hide Dock Background        | Dock arka planını gizle                 |
+| Hide Icon Badges            | Simge rozetlerini gizle                 |
+| Hide Status Bar Color Views | Durum çubuğu renk görünümlerini gizle   |
+| Disable App Tracking        | Uygulama takibini devre dışı bırak      |
+| Disable Low Power Auto-Lock | Düşük güç otomatik kilidini kapat       |
+| Custom Home Columns         | Özel ana ekran sütunları                |
+| Custom Corner Radius        | Özel köşe yarıçapı                      |
+| Enable Drag & Drop (iPhone) | Sürükle ve bırak'ı etkinleştir (iPhone) |
 
-Lock Screen - Clock & Date / Kilit Ekrani - Saat ve Tarih
+Lock Screen - Clock & Date / Kilit Ekranı - Saat ve Tarih
 
-| English         | Turkce                |
+| English         | Türkçe                |
 | --------------- | --------------------- |
-| Hide Clock      | Saati Gizle           |
-| Hide Date       | Tarihi Gizle          |
-| Use Custom Font | Ozel Yazi Tipi Kullan |
-| Font Size       | Yazi Boyutu           |
-| Font Style      | Yazi Tipi Stili       |
-| Select Font     | Yazi Tipi Sec         |
+| Hide Clock      | Saati gizle           |
+| Hide Date       | Tarihi gizle          |
+| Use Custom Font | Özel yazı tipi kullan |
+| Font Size       | Yazı boyutu           |
+| Font Style      | Yazı tipi stili       |
+| Select Font     | Yazı tipi seç         |
 
-Lock Screen - Notifications / Kilit Ekrani - Bildirimler
+Lock Screen - Notifications / Kilit Ekranı - Bildirimler
 
-| English                  | Turkce                            |
+| English                  | Türkçe                            |
 | ------------------------ | --------------------------------- |
-| Hide App Names           | Uygulama Adlarini Gizle           |
-| Hide Time Labels         | Zaman Etiketlerini Gizle          |
-| Hide Manage/View Buttons | Yonet/Goruntule Butonlarini Gizle |
+| Hide App Names           | Uygulama adlarını gizle           |
+| Hide Time Labels         | Zaman etiketlerini gizle          |
+| Hide Manage/View Buttons | Yönet/görüntüle butonlarını gizle |
 
-Lock Screen - UI Elements / Kilit Ekrani - Arayuz Ogeleri
+Lock Screen - UI Elements / Kilit Ekranı - Arayüz Öğeleri
 
-| English                      | Turkce                           |
+| English                      | Türkçe                           |
 | ---------------------------- | -------------------------------- |
-| Hide Swipe/Press Text        | Kaydir/Bas Metnini Gizle         |
-| Custom Slide Message         | Ozel Kaydirma Mesaji             |
-| Hide Old Notifications Text  | Eski Bildirim Metnini Gizle      |
-| Hide Passcode Title          | Sifre Basligini Gizle            |
-| Use Custom Passcode Text     | Ozel Sifre Metni Kullan          |
-| Custom Passcode Text         | Ozel Sifre Metni                 |
-| Hide Quick Action Background | Hizli Islem Arka Planini Gizle   |
-| Hide NC Title                | Bildirim Merkezi Basligini Gizle |
+| Hide Swipe/Press Text        | Kaydır/bas metnini gizle         |
+| Custom Slide Message         | Özel kaydırma mesajı             |
+| Hide Old Notifications Text  | Eski bildirim metnini gizle      |
+| Hide Passcode Title          | Şifre başlığını gizle            |
+| Use Custom Passcode Text     | Özel şifre metni kullan          |
+| Custom Passcode Text         | Özel şifre metni                 |
+| Hide Quick Action Background | Hızlı işlem arka planını gizle   |
+| Hide NC Title                | Bildirim merkezi başlığını gizle |
 
-Folders & App Switcher / Klasorler ve Uygulama Degistirici
+Folders & App Switcher / Klasörler ve Uygulama Değiştirici
 
-| English                     | Turkce                              |
+| English                     | Türkçe                              |
 | --------------------------- | ----------------------------------- |
-| Hide Folder Titles          | Klasor Basliklarini Gizle           |
-| Hide Folder Blur            | Klasor Bulanikligini Gizle          |
-| iPad Folder Grid (4x4)      | iPad Klasor Izgarasi (4x4)          |
-| Hide Switcher Card Icons    | Degistirici Kart Simgelerini Gizle  |
-| Hide Switcher Card Labels   | Degistirici Kart Etiketlerini Gizle |
-| Prevent Close While Playing | Oynatilirken Kapatmayi Engelle      |
+| Hide Folder Titles          | Klasör başlıklarını gizle           |
+| Hide Folder Blur            | Klasör bulanıklığını gizle          |
+| iPad Folder Grid (4x4)      | iPad klasör ızgarası (4x4)          |
+| Hide Switcher Card Icons    | Değiştirici kart simgelerini gizle  |
+| Hide Switcher Card Labels   | Değiştirici kart etiketlerini gizle |
+| Prevent Close While Playing | Oynatılırken kapatmayı engelle      |
 
 Camera / Kamera
 
-| English                 | Turkce                          |
+| English                 | Türkçe                          |
 | ----------------------- | ------------------------------- |
-| Hide Last Photo Preview | Son Fotograf Onizlemesini Gizle |
-| Disable Shutter Sound   | Deklansor Sesini Kapat          |
-| iPad-Style Layout       | iPad Tarzi Duzen                |
+| Hide Last Photo Preview | Son fotoğraf önizlemesini gizle |
+| Disable Shutter Sound   | Deklanşör sesini kapat          |
+| iPad-Style Layout       | iPad tarzı düzen                |
 
 Control Center / Kontrol Merkezi
 
-| English                    | Turkce                                  |
-| -------------------------- | --------------------------------------- |
-| Hide Status Bar in CC      | Kontrol Merkezi'nde Durum Cubugunu Gizle |
-| Hide Banners While CC Open | Kontrol Merkezi Acikken Bannerlari Gizle |
+| English                    | Türkçe                                   |
+| -------------------------- | ---------------------------------------- |
+| Hide Status Bar in CC      | Kontrol Merkezi'nde durum çubuğunu gizle |
+| Hide Banners While CC Open | Kontrol Merkezi açıkken bannerları gizle |
 
 Icon Labels / Simge Etiketleri
 
-| English             | Turkce                   |
+| English             | Türkçe                   |
 | ------------------- | ------------------------ |
-| Hide on Home Screen | Ana Ekranda Gizle        |
-| Hide in App Library | Uygulama Arsivinde Gizle |
-| Hide in Folders     | Klasorlerde Gizle        |
-| Disable Icon Jiggle | Simge Titremesini Kapat  |
+| Hide on Home Screen | Ana ekranda gizle        |
+| Hide in App Library | Uygulama arşivinde gizle |
+| Hide in Folders     | Klasörlerde gizle        |
+| Disable Icon Jiggle | Simge titremesini kapat  |
 
-Screenshot / Ekran Goruntusu
+Screenshot / Ekran Görüntüsü
 
-| English                  | Turkce                             |
+| English                  | Türkçe                             |
 | ------------------------ | ---------------------------------- |
-| Hide Screenshot Preview  | Ekran Goruntusu Onizlemesini Gizle |
-| Disable Screenshot Sound | Ekran Goruntusu Sesini Kapat       |
+| Hide Screenshot Preview  | Ekran görüntüsü önizlemesini gizle |
+| Disable Screenshot Sound | Ekran görüntüsü sesini kapat       |
 
-Photos / Fotograflar
+Photos / Fotoğraflar
 
-| English             | Turkce                    |
+| English             | Türkçe                    |
 | ------------------- | ------------------------- |
-| Increase Zoom Limit | Zoom Limitini Artir       |
-| Hide Media Slider   | Medya Kaydiricisini Gizle |
+| Increase Zoom Limit | Zoom limitini artır       |
+| Hide Media Slider   | Medya kaydırıcısını gizle |
 
 Sounds / Sesler
 
-| English                          | Turkce                 |
+| English                          | Türkçe                 |
 | -------------------------------- | ---------------------- |
-| Choose Custom Ringtone           | Ozel Zil Sesi Sec      |
-| Choose Custom Notification Sound | Ozel Bildirim Sesi Sec |
+| Choose Custom Ringtone           | Özel zil sesi seç      |
+| Choose Custom Notification Sound | Özel bildirim sesi seç |
 
-Contact / Iletisim
+Contact / İletişim
 
 Twitter (X): https://x.com/gmzl80
 
 Instagram: https://www.instagram.com/gmzl80
 
-Legal Notice / Yasal Uyari
+Legal Notice / Yasal Uyarı
 
 This repository and all software distributed here, including binaries and assets, are the intellectual property of un1ockdev.
 
 All tweaks are closed-source. Unauthorized reverse-engineering, decompiling, redistribution, or reuse of source code and assets is prohibited.
 
-Bu depo ve burada paylasilan tum yazilimlar, dosyalar ve gorseller dahil olmak uzere un1ockdev'in fikri mulkiyetidir.
+Bu depo ve burada paylaşılan tüm yazılımlar, dosyalar ve görseller dahil olmak üzere un1ockdev'in fikri mülkiyetidir.
 
-Tum tweakler kapali kaynaklidir. Kaynak kodlarin veya gorsellerin izinsiz tersine muhendislik, decompile, yeniden dagitim veya tekrar kullanimi yasaktir.
+Tüm tweakler kapalı kaynaklıdır. Kaynak kodların veya görsellerin izinsiz tersine mühendislik, decompile, yeniden dağıtım veya tekrar kullanımı yasaktır.
 
 Developed by un1ockdev.
