@@ -18,10 +18,10 @@ Version: 3.0.0
 Architecture: iphoneos-arm64
 Maintainer: un1ockdev
 Filename: debs/com.un1ockdev.proudlockx_3.0.0_iphoneos-arm64.deb
-Size: 2076220
-MD5sum: 4dca2e35c81ab693448c8c91b4ffd044
-SHA1: 205ab61ebbbddbf2cf9980768dd45055e6010dea
-SHA256: efba689548b4068de0accfe0043cb3e7eb018057e698a4ed1e91d49aadcea8ef
+Size: 2139148
+MD5sum: ad09ec38386d500cada99a4953af6789
+SHA1: 437a4615436b2e82d0b1282eb61af43922920c7e
+SHA256: 76e4538fbf523ac46284227541e393714252aa0b2b572a5c72e395d80adfc9a3
 Section: Tweaks
 Description: Advanced rootless customization toolkit for iOS 16.
 Icon: https://un1ockdev.github.io/tweak-repo/assets/ProudLockX/icon@3x.png
