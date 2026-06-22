@@ -239,37 +239,29 @@
       color: var(--ink);
     }
 
-    .sileo-mark,
-    .zebra-mark,
-    .cydia-mark,
-    .social-mark {
-      display: inline-grid;
-      place-items: center;
+    .app-icon,
+    .social-icon {
+      display: inline-block;
       width: 26px;
       height: 26px;
       border-radius: 7px;
-      color: #fff;
-      font-weight: 900;
-      font-size: 14px;
-      line-height: 1;
+      object-fit: cover;
+      background: #fff;
+      flex: 0 0 auto;
     }
 
-    .sileo-mark {
-      background: linear-gradient(135deg, #21c6ff, #7b43ff);
+    .social-icon {
+      padding: 3px;
+      border: 1px solid var(--line);
     }
 
-    .zebra-mark {
-      background: repeating-linear-gradient(135deg, #111 0 5px, #fff 5px 10px);
-      color: #111;
-      border: 1px solid #111;
+    .zebra-icon {
+      background: #111;
+      padding: 3px;
     }
 
-    .cydia-mark {
+    .cydia-icon {
       background: #8d5c3d;
-    }
-
-    .social-mark {
-      background: var(--ink);
     }
 
     .device-card {
@@ -397,6 +389,22 @@
       font-size: 14px;
       font-weight: 700;
       background: #f8fafb;
+    }
+
+    .mini-shots {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .mini-shots img {
+      width: 100%;
+      aspect-ratio: 9 / 16;
+      object-fit: cover;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
     }
 
     .package-actions {
@@ -543,7 +551,7 @@
       </a>
       <div class="nav-actions">
         <div class="lang-toggle" aria-label="Language">
-          <button type="button" data-lang-btn="tr" aria-label="Turkce">TR</button>
+          <button type="button" data-lang-btn="tr" aria-label="Türkçe">TR</button>
           <button type="button" data-lang-btn="en" aria-label="English">EN</button>
         </div>
       </div>
@@ -554,9 +562,9 @@
     <section class="hero">
       <div class="shell hero-grid">
         <div>
-          <p class="eyebrow" data-i18n="eyebrow">Sileo, Zebra ve Cydia icin resmi repo</p>
+          <p class="eyebrow" data-i18n="eyebrow">Sileo, Zebra ve Cydia için resmi repo</p>
           <h1 data-i18n="heroTitle">ProudLockX ve iOS 16 rootless tweakleri</h1>
-          <p class="lead" data-i18n="heroLead">Kilit ekrani, SpringBoard, dock, durum cubugu, zil sesi ve bildirim sesi ozellestirmeleri icin temiz ve modern bir repo.</p>
+          <p class="lead" data-i18n="heroLead">Kilit ekranı, SpringBoard, dock, durum çubuğu, zil sesi ve bildirim sesi özelleştirmeleri için temiz ve modern bir repo.</p>
 
           <div class="repo-url">
             <code id="repoUrl">https://un1ockdev.github.io/tweak-repo/</code>
@@ -565,15 +573,15 @@
 
           <div class="cta-row" aria-label="Package manager links">
             <a class="primary-btn" href="sileo://source/https://un1ockdev.github.io/tweak-repo/">
-              <span class="sileo-mark">S</span>
+              <img class="app-icon" src="https://getsileo.app/img/icon.png" alt="Sileo">
               <span data-i18n="addSileo">Sileo'ya ekle</span>
             </a>
             <a class="secondary-btn" href="zbra://sources/add/https://un1ockdev.github.io/tweak-repo/">
-              <span class="zebra-mark">Z</span>
+              <img class="app-icon zebra-icon" src="https://getzbra.com/assets/zeeb.svg" alt="Zebra">
               <span data-i18n="addZebra">Zebra'ya ekle</span>
             </a>
             <a class="secondary-btn" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://un1ockdev.github.io/tweak-repo/">
-              <span class="cydia-mark">C</span>
+              <img class="app-icon cydia-icon" src="CydiaIcon.png" alt="Cydia">
               <span data-i18n="addCydia">Cydia'ya ekle</span>
             </a>
           </div>
@@ -581,7 +589,7 @@
 
         <aside class="device-card" aria-label="ProudLockX preview">
           <img src="assets/ProudLockX/screenshots/08.png" alt="ProudLockX Lock Screen preview">
-          <div class="device-caption" data-i18n="previewCaption">ProudLockX kilit ekrani onizlemesi</div>
+          <div class="device-caption" data-i18n="previewCaption">ProudLockX kilit ekranı önizlemesi</div>
         </aside>
       </div>
     </section>
@@ -590,7 +598,7 @@
       <div class="shell">
         <div class="section-head">
           <h2 data-i18n="packagesTitle">Tweakler</h2>
-          <p data-i18n="packagesLead">Rootless iOS 16 cihazlar icin hazirlanan paketler. Repo adresini paket yoneticine ekleyip direkt kurabilirsin.</p>
+          <p data-i18n="packagesLead">Rootless iOS 16 cihazlar için hazırlanan paketler. Repo adresini paket yöneticine ekleyip direkt kurabilirsin.</p>
         </div>
 
         <div class="package-grid">
@@ -606,15 +614,21 @@
                   <span>v3.0.0 · iOS 16.0 - 16.7.15</span>
                 </div>
               </div>
-              <p data-i18n="plxDesc">Kilit ekrani, SpringBoard, dock, klasorler, passcode ekrani, durum cubugu, kamera, fotograflar, klavye, zil sesi ve bildirim sesi icin kapsamli ozellestirme paketi.</p>
+              <p data-i18n="plxDesc">Kilit ekranı, SpringBoard, dock, klasörler, passcode ekranı, durum çubuğu, kamera, fotoğraflar, klavye, zil sesi ve bildirim sesi için kapsamlı özelleştirme paketi.</p>
+              <div class="mini-shots" aria-label="ProudLockX screenshots">
+                <img src="assets/ProudLockX/screenshots/01.png" alt="ProudLockX screenshot 1">
+                <img src="assets/ProudLockX/screenshots/03.png" alt="ProudLockX screenshot 3">
+                <img src="assets/ProudLockX/screenshots/05.png" alt="ProudLockX screenshot 5">
+                <img src="assets/ProudLockX/screenshots/08.png" alt="ProudLockX screenshot 8">
+              </div>
               <ul class="feature-list">
-                <li data-i18n="plxFeature1">Kilit ekrani ve saat kontrolleri</li>
-                <li data-i18n="plxFeature2">Durum cubugu ve pil ayarlari</li>
-                <li data-i18n="plxFeature3">Dock, klasor ve App Switcher</li>
-                <li data-i18n="plxFeature4">Cok dilli tercih paneli</li>
+                <li data-i18n="plxFeature1">Kilit ekranı ve saat kontrolleri</li>
+                <li data-i18n="plxFeature2">Durum çubuğu ve pil ayarları</li>
+                <li data-i18n="plxFeature3">Dock, klasör ve App Switcher</li>
+                <li data-i18n="plxFeature4">Çok dilli tercih paneli</li>
               </ul>
               <div class="package-actions">
-                <a class="primary-btn" href="sileo://package/com.un1ockdev.proudlockx"><span class="sileo-mark">S</span><span data-i18n="openSileo">Sileo'da ac</span></a>
+                <a class="primary-btn" href="sileo://package/com.un1ockdev.proudlockx"><img class="app-icon" src="https://getsileo.app/img/icon.png" alt="Sileo"><span data-i18n="openSileo">Sileo'da aç</span></a>
                 <a class="secondary-btn" href="assets/ProudLockX/ProudLockX.json" data-i18n="depiction">Depiction</a>
               </div>
             </div>
@@ -632,15 +646,15 @@
                   <span>v1.0.0 · iOS 16</span>
                 </div>
               </div>
-              <p data-i18n="dockDesc">iOS 16 icin modern, sade ve temiz bir dock deneyimi. Ana ekranin alt alanini daha yeni ve derli toplu hissettirmek icin hazirlandi.</p>
+              <p data-i18n="dockDesc">iOS 16 için modern, sade ve temiz bir dock deneyimi. Ana ekranın alt alanını daha yeni ve derli toplu hissettirmek için hazırlandı.</p>
               <ul class="feature-list">
-                <li data-i18n="dockFeature1">Modern dock gorunumu</li>
-                <li data-i18n="dockFeature2">Rootless paket yapisi</li>
-                <li data-i18n="dockFeature3">Sileo depiction destegi</li>
-                <li data-i18n="dockFeature4">iOS 16 odakli tasarim</li>
+                <li data-i18n="dockFeature1">Modern dock görünümü</li>
+                <li data-i18n="dockFeature2">Rootless paket yapısı</li>
+                <li data-i18n="dockFeature3">Sileo depiction desteği</li>
+                <li data-i18n="dockFeature4">iOS 16 odaklı tasarım</li>
               </ul>
               <div class="package-actions">
-                <a class="primary-btn" href="sileo://package/com.un1ockdev.prouddockxvi"><span class="sileo-mark">S</span><span data-i18n="openSileo2">Sileo'da ac</span></a>
+                <a class="primary-btn" href="sileo://package/com.un1ockdev.prouddockxvi"><img class="app-icon" src="https://getsileo.app/img/icon.png" alt="Sileo"><span data-i18n="openSileo2">Sileo'da aç</span></a>
                 <a class="secondary-btn" href="assets/ProudDockXVI/ProudDockXVI.json" data-i18n="depiction2">Depiction</a>
               </div>
             </div>
@@ -652,8 +666,8 @@
     <section>
       <div class="shell">
         <div class="section-head">
-          <h2 data-i18n="shotsTitle">Ekran goruntuleri</h2>
-          <p data-i18n="shotsLead">ProudLockX tercih panelinden ve ozellestirilmis kilit ekranindan ornekler.</p>
+          <h2 data-i18n="shotsTitle">Ekran görüntüleri</h2>
+          <p data-i18n="shotsLead">ProudLockX tercih panelinden ve özelleştirilmiş kilit ekranından örnekler.</p>
         </div>
         <div class="screenshots">
           <img src="assets/ProudLockX/screenshots/01.png" alt="ProudLockX screenshot 1">
@@ -672,15 +686,15 @@
       <div class="shell info-grid">
         <div class="info-item">
           <strong>Rootless</strong>
-          <span data-i18n="stat1">iOS 16 jailbreak yapisi icin hazirlandi.</span>
+          <span data-i18n="stat1">iOS 16 jailbreak yapısı için hazırlandı.</span>
         </div>
         <div class="info-item">
           <strong>2</strong>
-          <span data-i18n="stat2">Yayinda olan tweak paketi.</span>
+          <span data-i18n="stat2">Yayında olan tweak paketi.</span>
         </div>
         <div class="info-item">
           <strong>Sileo</strong>
-          <span data-i18n="stat3">Depiction, ikon ve paket indeksleri hazir.</span>
+          <span data-i18n="stat3">Depiction, ikon ve paket indeksleri hazır.</span>
         </div>
       </div>
     </section>
@@ -688,20 +702,20 @@
     <section>
       <div class="shell">
         <div class="section-head">
-          <h2 data-i18n="contactTitle">Iletisim</h2>
-          <p data-i18n="contactLead">Guncellemeler, destek ve yeni paketler icin un1ockdev hesaplarini takip et.</p>
+          <h2 data-i18n="contactTitle">İletişim</h2>
+          <p data-i18n="contactLead">Güncellemeler, destek ve yeni paketler için un1ockdev hesaplarını takip et.</p>
         </div>
         <div class="contact-row">
           <a class="secondary-btn" href="https://x.com/gmzl80" target="_blank" rel="noopener">
-            <span class="social-mark">X</span>
+            <img class="social-icon" src="https://cdn.simpleicons.org/x/000000" alt="X">
             <span>X / gmzl80</span>
           </a>
           <a class="secondary-btn" href="https://www.reddit.com/user/Pretend_Swimmer1700/" target="_blank" rel="noopener">
-            <span class="social-mark">R</span>
+            <img class="social-icon" src="https://cdn.simpleicons.org/reddit/FF4500" alt="Reddit">
             <span>Reddit</span>
           </a>
           <a class="secondary-btn" href="https://github.com/un1ockdev" target="_blank" rel="noopener">
-            <span class="social-mark">G</span>
+            <img class="social-icon" src="https://cdn.simpleicons.org/github/181717" alt="GitHub">
             <span>GitHub</span>
           </a>
         </div>
@@ -720,39 +734,39 @@
     const translations = {
       tr: {
         navSubtitle: "iOS 16 rootless tweakleri",
-        eyebrow: "Sileo, Zebra ve Cydia icin resmi repo",
+        eyebrow: "Sileo, Zebra ve Cydia için resmi repo",
         heroTitle: "ProudLockX ve iOS 16 rootless tweakleri",
-        heroLead: "Kilit ekrani, SpringBoard, dock, durum cubugu, zil sesi ve bildirim sesi ozellestirmeleri icin temiz ve modern bir repo.",
+        heroLead: "Kilit ekranı, SpringBoard, dock, durum çubuğu, zil sesi ve bildirim sesi özelleştirmeleri için temiz ve modern bir repo.",
         copy: "Kopyala",
-        copied: "Kopyalandi",
+        copied: "Kopyalandı",
         addSileo: "Sileo'ya ekle",
         addZebra: "Zebra'ya ekle",
         addCydia: "Cydia'ya ekle",
-        previewCaption: "ProudLockX kilit ekrani onizlemesi",
+        previewCaption: "ProudLockX kilit ekranı önizlemesi",
         packagesTitle: "Tweakler",
-        packagesLead: "Rootless iOS 16 cihazlar icin hazirlanan paketler. Repo adresini paket yoneticine ekleyip direkt kurabilirsin.",
-        plxDesc: "Kilit ekrani, SpringBoard, dock, klasorler, passcode ekrani, durum cubugu, kamera, fotograflar, klavye, zil sesi ve bildirim sesi icin kapsamli ozellestirme paketi.",
-        plxFeature1: "Kilit ekrani ve saat kontrolleri",
-        plxFeature2: "Durum cubugu ve pil ayarlari",
-        plxFeature3: "Dock, klasor ve App Switcher",
-        plxFeature4: "Cok dilli tercih paneli",
-        openSileo: "Sileo'da ac",
+        packagesLead: "Rootless iOS 16 cihazlar için hazırlanan paketler. Repo adresini paket yöneticine ekleyip direkt kurabilirsin.",
+        plxDesc: "Kilit ekranı, SpringBoard, dock, klasörler, passcode ekranı, durum çubuğu, kamera, fotoğraflar, klavye, zil sesi ve bildirim sesi için kapsamlı özelleştirme paketi.",
+        plxFeature1: "Kilit ekranı ve saat kontrolleri",
+        plxFeature2: "Durum çubuğu ve pil ayarları",
+        plxFeature3: "Dock, klasör ve App Switcher",
+        plxFeature4: "Çok dilli tercih paneli",
+        openSileo: "Sileo'da aç",
         depiction: "Depiction",
-        dockDesc: "iOS 16 icin modern, sade ve temiz bir dock deneyimi. Ana ekranin alt alanini daha yeni ve derli toplu hissettirmek icin hazirlandi.",
-        dockFeature1: "Modern dock gorunumu",
-        dockFeature2: "Rootless paket yapisi",
-        dockFeature3: "Sileo depiction destegi",
-        dockFeature4: "iOS 16 odakli tasarim",
-        openSileo2: "Sileo'da ac",
+        dockDesc: "iOS 16 için modern, sade ve temiz bir dock deneyimi. Ana ekranın alt alanını daha yeni ve derli toplu hissettirmek için hazırlandı.",
+        dockFeature1: "Modern dock görünümü",
+        dockFeature2: "Rootless paket yapısı",
+        dockFeature3: "Sileo depiction desteği",
+        dockFeature4: "iOS 16 odaklı tasarım",
+        openSileo2: "Sileo'da aç",
         depiction2: "Depiction",
-        shotsTitle: "Ekran goruntuleri",
-        shotsLead: "ProudLockX tercih panelinden ve ozellestirilmis kilit ekranindan ornekler.",
-        stat1: "iOS 16 jailbreak yapisi icin hazirlandi.",
-        stat2: "Yayinda olan tweak paketi.",
-        stat3: "Depiction, ikon ve paket indeksleri hazir.",
-        contactTitle: "Iletisim",
-        contactLead: "Guncellemeler, destek ve yeni paketler icin un1ockdev hesaplarini takip et.",
-        footer: "un1ockdev tarafindan gelistirildi. Paket yoneticine ekle: "
+        shotsTitle: "Ekran görüntüleri",
+        shotsLead: "ProudLockX tercih panelinden ve özelleştirilmiş kilit ekranından örnekler.",
+        stat1: "iOS 16 jailbreak yapısı için hazırlandı.",
+        stat2: "Yayında olan tweak paketi.",
+        stat3: "Depiction, ikon ve paket indeksleri hazır.",
+        contactTitle: "İletişim",
+        contactLead: "Güncellemeler, destek ve yeni paketler için un1ockdev hesaplarını takip et.",
+        footer: "un1ockdev tarafından geliştirildi. Paket yöneticine ekle: "
       },
       en: {
         navSubtitle: "iOS 16 rootless tweaks",
