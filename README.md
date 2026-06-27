@@ -2,10 +2,10 @@
   <img src="assets/repo-icon.png" width="180" alt="un1ockdev repo icon">
 </p>
 
-<h1 align="center">ProudLockX Repo</h1>
+<h1 align="center">un1ockdev Tweak Repo</h1>
 
 <p align="center">
-  Official repository for iOS 16 rootless tweaks developed by un1ockdev.
+  Official rootless jailbreak tweak repository by un1ockdev.
 </p>
 
 <p align="center">
@@ -33,6 +33,10 @@ ProudDockXVI
 Modern dock tweak for iOS 16.
 
 iOS 16 için modern dock tweakidir.
+
+AtlasShift
+
+AtlasShift is an advanced rootless fake-location tweak with per-app profiles, route simulation, presets, favorites, and map-based location selection.
 
 General / Genel
 

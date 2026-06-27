@@ -27,3 +27,18 @@ Description: Advanced rootless customization toolkit for iOS 16.
 Icon: https://un1ockdev.github.io/tweak-repo/assets/ProudLockX/icon@3x.png
 SileoDepiction: https://un1ockdev.github.io/tweak-repo/assets/ProudLockX/ProudLockX.json
 Name: ProudLockX
+
+Package: com.un1ockdev.atlasshift
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: un1ockdev
+Filename: debs/com.un1ockdev.atlasshift_1.0.0_iphoneos-arm64.deb
+Size: 146640
+MD5sum: fc301ead33edc5cc995c499114c035fc
+SHA1: 388dcc5bc22c8e0ff18d46e0d9e3edfa65912525
+SHA256: daeb71c624e83b64b922971670741cc67be5c456d6bf0498f6165bf5ae292531
+Section: Tweaks
+Description: Advanced rootless fake location tweak with per-app profiles, route simulation, presets, favorites, and map-based selection.
+Icon: https://un1ockdev.github.io/tweak-repo/assets/AtlasShift/Icon%403x.png
+SileoDepiction: https://un1ockdev.github.io/tweak-repo/assets/AtlasShift/AtlasShift.json
+Name: AtlasShift

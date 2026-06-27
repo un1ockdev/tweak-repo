@@ -1,0 +1,106 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "https://un1ockdev.github.io/tweak-repo/assets/AtlasShift/header.png",
+  "tintColor": "#20C7C9",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Meet AtlasShift"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "A powerful rootless location-shifting tweak"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Meet AtlasShift \u2014 a powerful rootless location-shifting tweak that can take you from one side of the world to the other in seconds.\n\nAtlasShift gives you precise control over how apps see your location. Choose a fixed location from presets, pick a point on the map, save favorite locations, or create per-app profiles so each app can use its own custom location. For more realistic movement, AtlasShift also includes route and walking simulation with speed control and loop support.",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 12,
+          "itemSize": "{160, 284}",
+          "screenshots": [
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/AtlasShift/01.png",
+              "accessibilityText": "AtlasShift main interface"
+            },
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/AtlasShift/02.png",
+              "accessibilityText": "AtlasShift map-based location picker"
+            },
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/AtlasShift/03.png",
+              "accessibilityText": "AtlasShift presets and favorites"
+            },
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/AtlasShift/04.png",
+              "accessibilityText": "AtlasShift per-app profiles"
+            },
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/AtlasShift/05.png",
+              "accessibilityText": "AtlasShift route simulation"
+            },
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/AtlasShift/06.png",
+              "accessibilityText": "AtlasShift walking controls"
+            },
+            {
+              "url": "https://un1ockdev.github.io/tweak-repo/assets/AtlasShift/07.png",
+              "accessibilityText": "AtlasShift settings overview"
+            }
+          ]
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Features"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Per-app location profiles\n- Global fake location mode\n- Selected-app mode\n- Map-based location picker\n- Country and city presets\n- Favorite locations\n- Route and walking simulation\n- Walking speed control\n- Loop route support\n- Works with rootless jailbreaks\n- Designed for iOS 15 and iOS 16\n- Clean release build with no debug logging",
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "Compatible with rootless jailbreak environments on iOS 15 and iOS 16. Built for iphoneos-arm64."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Jailbreak",
+          "text": "Rootless"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "\u00a9 2026 un1ockdev \u2014 AtlasShift",
+          "useRawFormat": false
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Version 1.0.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial AtlasShift release\n- Added per-app profiles\n- Added presets, favorites, and map-based selection\n- Added route and walking simulation\n- Added rootless iOS 15 and iOS 16 support\n- Clean release build with no debug logging",
+          "useRawFormat": false
+        }
+      ]
+    }
+  ]
+}
