@@ -73,7 +73,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Compatibility",
-          "text": "Compatible with rootless jailbreak environments on iOS 15 and iOS 16. Built for iphoneos-arm64."
+          "text": "15.0 - 16.7.15"
         },
         {
           "class": "DepictionTableTextView",
