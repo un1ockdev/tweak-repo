@@ -62,7 +62,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Per-app location profiles\n- Global fake location mode\n- Selected-app mode\n- Map-based location picker\n- Country and city presets\n- Favorite locations\n- Route and walking simulation\n- Walking speed control\n- Loop route support\n- Works with rootless jailbreaks\n- Designed for iOS 15 and iOS 16\n- Clean release build with no debug logging",
+          "markdown": "- Per-app location profiles\n- Global fake location mode\n- Selected-app mode\n- Map-based location picker\n- Country and city presets\n- Favorite locations\n- Route and walking simulation\n- Walking speed control\n- Loop route support\n- Works with rootless jailbreaks\n- Designed for iOS 15 and iOS 16",
           "useRawFormat": false
         },
         {
