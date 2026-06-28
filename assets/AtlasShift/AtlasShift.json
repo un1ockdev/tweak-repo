@@ -81,6 +81,34 @@
           "text": "Rootless"
         },
         {
+          "class": "DepictionHeaderView",
+          "title": "Links"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Support Development on Patreon",
+          "action": "https://www.patreon.com/un1ockdev",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub",
+          "action": "https://github.com/un1ockdev",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "X / Twitter",
+          "action": "https://x.com/gmzl80",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Reddit",
+          "action": "https://www.reddit.com/user/Pretend_Swimmer1700/",
+          "openExternal": true
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "\u00a9 2026 un1ockdev \u2014 AtlasShift",
           "useRawFormat": false
@@ -97,7 +125,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Initial AtlasShift release\n- Added per-app profiles\n- Added presets, favorites, and map-based selection\n- Added route and walking simulation\n- Added rootless iOS 15 and iOS 16 support\n- Clean release build with no debug logging",
+          "markdown": "- Initial AtlasShift release\n- Added per-app profiles\n- Added presets, favorites, and map-based selection\n- Added route and walking simulation\n- Added rootless iOS 15 and iOS 16 support",
           "useRawFormat": false
         }
       ]
